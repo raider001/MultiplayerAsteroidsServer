@@ -19,10 +19,9 @@ import com.lazyproductions.appserver.Data.PlayerStatisticData;
 import com.lazyproductions.appserver.Data.PlayerVectorData;
 import com.lazyproductions.appserver.authentication.Header;
 import com.lazyproductions.appserver.authentication.TokenHandler;
-import com.lazyproductions.appserver.websockets.AuthenticationConfigurator;
 import com.lazyproductions.appserver.websockets.Socket;
 
-@ServerEndpoint(value = "/player", configurator = AuthenticationConfigurator.class)
+@ServerEndpoint(value = "/game/player")
 public class GameSocket extends Socket<PlayerControlData> {
 	Logger LOGGER = LoggerFactory.getLogger(GameSocket.class);
 	private static final ScheduledExecutorService ses = Executors

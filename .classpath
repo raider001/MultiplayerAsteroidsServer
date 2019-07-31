@@ -8,11 +8,11 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Jetty"/>
 	<classpathentry kind="lib" path="C:/Users/Daniel/eclipse-workspace/Restlet/lib/org.json_2.0/org.json.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Daniel/eclipse-workspace/engine.io-server-1.3.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Daniel/eclipse-workspace/AppServer/postgresql-42.2.6.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Daniel/eclipse-workspace/gson-2.8.5.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="lib" path="C:/Users/Daniel/eclipse-workspace/slf4j-1.7.26/slf4j-log4j12-1.7.26.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Daniel/eclipse-workspace/slf4j-1.7.26/slf4j-api-1.7.26.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Daniel/eclipse-workspace/slf4j-1.7.26/slf4j-ext-1.7.26.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Daniel/eclipse-workspace/AppServer/MultiplayerAsteroidsServer/postgresql-42.2.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

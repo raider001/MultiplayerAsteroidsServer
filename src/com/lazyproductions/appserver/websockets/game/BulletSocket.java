@@ -8,10 +8,9 @@ import javax.websocket.server.ServerEndpoint;
 import com.lazyproductions.appserver.GameRunnable;
 import com.lazyproductions.appserver.Data.BulletData;
 import com.lazyproductions.appserver.authentication.Header;
-import com.lazyproductions.appserver.websockets.AuthenticationConfigurator;
 import com.lazyproductions.appserver.websockets.Socket;
 
-@ServerEndpoint(value = "/bullet", configurator = AuthenticationConfigurator.class)
+@ServerEndpoint(value = "/game/bullet")
 public class BulletSocket extends Socket<BulletData> {
 
 	public BulletSocket() {

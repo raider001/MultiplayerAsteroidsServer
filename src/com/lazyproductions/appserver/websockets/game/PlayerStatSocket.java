@@ -8,10 +8,9 @@ import javax.websocket.server.ServerEndpoint;
 import com.lazyproductions.appserver.GameRunnable;
 import com.lazyproductions.appserver.Data.PlayerStatisticData;
 import com.lazyproductions.appserver.authentication.Header;
-import com.lazyproductions.appserver.websockets.AuthenticationConfigurator;
 import com.lazyproductions.appserver.websockets.Socket;
 
-@ServerEndpoint(value = "/playerStats", configurator = AuthenticationConfigurator.class)
+@ServerEndpoint(value = "/game/playerStats")
 public class PlayerStatSocket extends Socket<PlayerStatisticData> {
 
 	public PlayerStatSocket() {
